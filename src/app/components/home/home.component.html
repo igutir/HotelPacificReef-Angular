@@ -12,13 +12,19 @@
         <mat-form-field>
           <mat-label>Ingresa el rango de fechas</mat-label>
           <mat-date-range-input [rangePicker]="picker">
-            <input matStartDate placeholder="Inngreso">
-            <input matEndDate placeholder="Salida">
+            <input matStartDate placeholder="Ingreso" (dateInput)="addEvent('input', $event)">
+            <input matEndDate placeholder="Salida" (dateInput)="addEvent('input', $event)" >
           </mat-date-range-input>
           <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
           <mat-date-range-picker #picker></mat-date-range-picker>
         </mat-form-field>
         <button class="btn btn-warning"><a [routerLink]="['/buscar_reserva']">Ver disponibilidad</a> </button>
+
+        <!-- <div class="example-events" style="color: aliceblue">
+          @for (e of events; track e) {
+            <div>{{e}}</div>
+          }
+        </div> -->
     </div>
 
 
@@ -53,3 +59,4 @@
   </div>
 </div>
 
+<!-- (dateChange)="addEvent('change', $event)" -->

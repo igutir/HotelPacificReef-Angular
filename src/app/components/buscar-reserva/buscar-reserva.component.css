@@ -1,4 +1,59 @@
+/* ----- */
+.resumen{
+    background-color: rgb(82, 88, 123,0.8) ;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    color: white;
+    padding: 1rem 2rem 1rem 2rem;
+    align-items: center;
+}
+.reserva-fecha,
+.reserva-camas,
+.reserva-personas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.uil{
+    font-size: 30px;
+}
+
+/* ----- */
+.estado{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.fases{
+    display: flex;
+    gap: 0.1rem;
+}
+.fases> span{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    background-color: rgb(82, 88, 123,0.8) ;
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+}
+
+.fases> .active{
+    background-color:#364C77;
+}
+/* ----- */
+.container{
+    margin: 0;
+}
 .container-buscar-reservas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #FFFDF5;
     padding: 10px;
 }
