@@ -1,8 +1,6 @@
-# HotelPacificReefAngular
+# PrHotelFront
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
-
-## Figma del proyecto: https://www.figma.com/file/CsHQ6Hg2snVfahaGecusDB/Hotel-Pacific-Reef?type=design&node-id=0-1&mode=design&t=GHfyXvKh3Ovho98Q-0
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.5.
 
 ## Development server
 
