@@ -1,0 +1,44 @@
+hr{
+    width: 90%;
+    height: 2px;
+    background-color: black;
+}
+a{
+    color: #6C6C6C;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+ul{
+    padding: 0;
+}
+.contianer-footer{
+    width: 100%;
+
+    background-color: #FFFDF5;
+}
+.line{
+    display: flex;
+    justify-content: center;
+}
+.footer-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-row{
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.footer-links{
+    padding: 20px;
+}
+
+.footer-links > h4{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+}
