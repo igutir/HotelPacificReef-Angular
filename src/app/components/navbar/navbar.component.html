@@ -8,16 +8,23 @@
             <li class="menu-item">SERVICIOS</li>
             <li class="menu-item">HABITACIONES</li>
             <li class="menu-item">CONTACTO</li>
+            
         </ul>
         <div class="nav-user">
             <i class="uil uil-user"></i>
+            <div class="since-box" style="width: 100px;">
+                <a [routerLink]="['/admin_reservas']" ><p class="since-text">Reservas</p></a>
+            </div>
+            <div class="since-box" style="width: 100px;">
+                <a [routerLink]="['/admin_empleados']" ><p class="since-text">Empleados</p></a>
+            </div>
         </div>
     </div>
 </div>
 
 <div class="container-banner">
         <div class="banner-logo">
-            <div class="banner-text"> <span class="text-logo-white">PacificReef</span><span class="text-logo-yellow">Hotel</span></div>
+            <div class="banner-text"><a [routerLink]="['']"><span class="text-logo-white">PacificReef</span><span class="text-logo-yellow">Hotel</span></a> </div>
             <img src="../../../assets/img/logo-stars.png" class="nav-logo-img" alt="Logo" />
         </div>
         <div class="banner-since">
@@ -27,30 +34,3 @@
         </div>
 </div>
 
-<!-- <div class="container-reserva">
-    <div class="container-components">
-
-        <mat-form-field >
-            <mat-label>Tipo de Habitación</mat-label>
-            <mat-select class="custom-background">
-              @for (food of foods; track food) {
-                <mat-option [value]="food.value">{{food.viewValue}}</mat-option>
-              }
-            </mat-select>
-          </mat-form-field>
-
-        <mat-form-field>
-          <mat-label>Ingresa el rango de fechas</mat-label>
-          <mat-date-range-input [rangePicker]="picker">
-            <input matStartDate placeholder="Inngreso">
-            <input matEndDate placeholder="Salida">
-          </mat-date-range-input>
-          ------ <mat-hint>mm/dd/yyyy – mm/dd/yyyy</mat-hint> -------
-          <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
-          <mat-date-range-picker #picker></mat-date-range-picker>
-        </mat-form-field>
-
-        <button class="btn btn-warning"> Ver disponibilidad</button>
-    </div>
-
-</div> -->

@@ -1,0 +1,26 @@
+<div class="container-reserva">
+    <div class="container-components">
+
+        <mat-form-field >
+            <mat-label>Tipo de Habitación</mat-label>
+            <mat-select class="custom-background">
+              @for (food of foods; track food) {
+                <mat-option [value]="food.value">{{food.viewValue}}</mat-option>
+              }
+            </mat-select>
+          </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Ingresa el rango de fechas</mat-label>
+          <mat-date-range-input [rangePicker]="picker">
+            <input matStartDate placeholder="Inngreso">
+            <input matEndDate placeholder="Salida">
+          </mat-date-range-input>
+          <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-date-range-picker #picker></mat-date-range-picker>
+        </mat-form-field>
+
+        <button class="btn btn-warning"> Ver disponibilidad</button>
+    </div>
+
+</div>

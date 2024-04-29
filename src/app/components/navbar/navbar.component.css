@@ -5,7 +5,9 @@
 h1{
     margin: 0;
 }
-
+a{
+    text-decoration: none;
+}
 ul{
     margin: 0;
 }
@@ -26,6 +28,11 @@ li{
 .nav-logo-img{
     width: 100px;
     padding-left: 30px;
+}
+
+.nav-user{
+    display: flex;
+    align-items: center;
 }
 
 .container-banner{
