@@ -32,3 +32,77 @@ mat-form-field > .mat-mdc-text-field-wrapper.mdc-text-field.mdc-text-field--fill
 :root {
     --mdc-filled-text-field-container-color: #a46d6d !important; /* Cambia el valor de la variable */
   }
+
+/* -------------- Nuestro Hotel ------- */
+
+.container-nuestro-hotel{
+    width: 100%;
+    background-color: #0E1E3F;
+    padding: 5rem;
+    display: flex;
+    background-image: url('data:image/svg+xml;utf8,%3Csvg%20width%3D%22577%22%20height%3D%22349%22%20viewBox%3D%220%200%20577%20349%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Crect%20x%3D%222%22%20width%3D%22574%22%20height%3D%22349%22%20fill%3D%22%230E1E3F%22%2F%3E%3Cline%20x1%3D%221.96472%22%20y1%3D%2225.4%22%20x2%3D%22576.035%22%20y2%3D%2225.4%22%20stroke%3D%22white%22%20stroke-width%3D%220.2%22%2F%3E%3Cline%20x1%3D%22406.4%22%20y1%3D%22349.007%22%20x2%3D%22406.4%22%20y2%3D%2225.993%22%20stroke%3D%22white%22%20stroke-width%3D%220.2%22%2F%3E%3Cpath%20d%3D%22M406%20200C406%20-31.8255%201%20-34.8363%201%20200%22%20stroke%3D%22white%22%20stroke-width%3D%220.2%22%2F%3E%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nuestro{
+    width: 33%;
+    padding: 30px;
+}
+.nuestro-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: white;
+}
+.nuestro-text >p{
+text-align: justify;
+/* font-family: "Inter", sans-serif; */
+}
+.text-logo-white{
+    font-size: 70px;
+    padding-bottom: 40px;
+    font-family: "Italiana", sans-serif;
+}
+.text-logo-yellow{
+    font-size: 70px;
+    color: #FCD043;
+    padding-bottom: 150px;
+    font-family: "Italiana", sans-serif;
+}
+.nuestro-barra{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 40px;
+    padding-right: 0px;
+}
+.nuestro-descripcion{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+}
+
+
+/* ------------ */
+.container-contactanos{
+    background-color: #FFFDF5 ;
+    padding: 4rem;
+}
+.contacto-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacto-title{
+    font-size: 70px;
+    font-family: "Italiana", sans-serif;
+    padding: 40px;
+}
+.contacto-info{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
