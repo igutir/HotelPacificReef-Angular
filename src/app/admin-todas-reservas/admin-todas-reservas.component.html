@@ -1,0 +1,219 @@
+<style>
+    body {
+      display: flex;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #FFFDF5;
+    }
+  
+    div {
+      background-color: #FFFDF5;
+    }
+  
+    .navbar-brand {
+      font-size: 50px;
+      display: block;
+      margin: auto;
+      width: fit-content;
+    }
+  
+    .form-control {
+      margin-left: auto;
+      margin-right: 0;
+      font-size: 18px;
+      height: 60px;
+    }
+  
+    .linea-negra {
+      border-top: 5px solid black;
+      width: 100%;
+      margin: 20px auto;
+    }
+  
+    .linea-negra2 {
+      border-top: 4px solid black;
+      width: 75%;
+      margin: 1px;
+    }
+  
+    .linea-negra3 {
+      border-top: 4px solid black;
+      width: 60%;
+      margin: 1px;
+    }
+  
+    .card-container {
+  
+      text-align: left;
+    }
+  
+   
+    .card-body {
+      background-color: #F0EDDC;
+    }
+  
+    .position-absolute {
+      background-color: #F0EDDC;
+    }
+  
+  
+    .info-separator {
+      font-weight: bold;
+      margin-bottom: 5px;
+      margin-left: 0;
+      font-size: 18px;
+  
+    }
+  
+  
+    .info-label {
+      font-weight: bold;
+      font-size: 18px;
+    }
+  
+  
+    .card-text {
+      width: 60%;
+      font-size: 18px;
+    }
+  
+    .card-text2 {
+      width: 60%;
+      font-size: 25px;
+    }
+  
+  
+    .card-title {
+      font-size: 40px;
+    }
+  </style>
+  
+  
+  
+  <div>
+  
+    <nav class="navbar ">
+      <div class="container-fluid">
+        <a class="navbar-brand">Todas las reservas</a>
+        <form class="d-flex" role="search">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+        </form>
+      </div>
+    </nav>
+  
+  </div>
+  
+  <body>
+  
+    <div>
+  
+      <hr class="linea-negra">
+  
+      <div class="card-container">
+        <div class="card mb-4 position-relative">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <div class="card-body">
+                <h2 class="card-title">Info. CLiente</h2>
+                <hr class="linea-negra2">
+                <p class="info-separator"> <span class="info-label">ID:</span> 1111</p>
+                <p class="info-separator"><span class="info-label">Nombre:</span> Joselito</p>
+                <p class="info-separator"><span class="info-label">Apellido:</span> Joselito</p>
+                <p class="info-separator"><span class="info-label">Días reservados:</span> 5</p>
+                <p class="info-separator"><span class="info-label">Día de llegada:</span> 05/12/2030</p>
+                <p class="info-separator"><span class="info-label">Día de salida:</span> 10/12/2030</p>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h2 class="card-title">Habitacion seleccionada</h2>
+                <hr class="linea-negra2">
+                <h3 class="card-text2">Habitación Premium</h3>
+                <h4 class="card-text2">Personas 1 cama 52 mts2</h4>
+                <hr class="linea-negra3">
+                <p class="card-text">Esta espaciosa habitación con amplios ventanales ofrece unas vistas espectaculares y
+                  una decoración elegante y actual. Las habitaciones tienen vistas a la ciudad o a los ...</p>
+              </div>
+            </div>
+          </div>
+          <div class="position-absolute bottom-0 end-0 p-4">
+            <span style="font-size: 24px; color: black; margin-right: 20px;">$59.99/noche</span>
+            <button class="btn btn-primary editar-reserva btn-lg" style="background-color: #958944;">Editar
+              reserva</button>
+          </div>
+        </div>
+      </div>
+  
+      <div class="card-container">
+        <div class="card mb-4 position-relative">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <div class="card-body">
+                <h2 class="card-title">Info. CLiente</h2>
+                <hr class="linea-negra2">
+                <p class="info-separator"> <span class="info-label">ID:</span> 1111</p>
+                <p class="info-separator"><span class="info-label">Nombre:</span> Joselito</p>
+                <p class="info-separator"><span class="info-label">Apellido:</span> Joselito</p>
+                <p class="info-separator"><span class="info-label">Días reservados:</span> 5</p>
+                <p class="info-separator"><span class="info-label">Día de llegada:</span> 05/12/2030</p>
+                <p class="info-separator"><span class="info-label">Día de salida:</span> 10/12/2030</p>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h2 class="card-title">Habitacion seleccionada</h2>
+                <hr class="linea-negra2">
+                <h3 class="card-text2">Habitación Premium</h3>
+                <h4 class="card-text2">Personas 1 cama 52 mts2</h4>
+                <hr class="linea-negra3">
+                <p class="card-text">Esta espaciosa habitación con amplios ventanales ofrece unas vistas espectaculares y
+                  una decoración elegante y actual. Las habitaciones tienen vistas a la ciudad o a los ...</p>
+              </div>
+            </div>
+          </div>
+          <div class="position-absolute bottom-0 end-0 p-4">
+            <span style="font-size: 24px; color: black; margin-right: 20px;">$59.99/noche</span>
+            <button class="btn btn-primary editar-reserva btn-lg" style="background-color: #958944;">Editar
+              reserva</button>
+          </div>
+        </div>
+      </div>
+  
+      <div class="card-container">
+        <div class="card mb-4 position-relative">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <div class="card-body">
+                <h2 class="card-title">Info. CLiente</h2>
+                <hr class="linea-negra2">
+                <p class="info-separator"> <span class="info-label">ID:</span> 1111</p>
+                <p class="info-separator"><span class="info-label">Nombre:</span> Joselito</p>
+                <p class="info-separator"><span class="info-label">Apellido:</span> Joselito</p>
+                <p class="info-separator"><span class="info-label">Días reservados:</span> 5</p>
+                <p class="info-separator"><span class="info-label">Día de llegada:</span> 05/12/2030</p>
+                <p class="info-separator"><span class="info-label">Día de salida:</span> 10/12/2030</p>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h2 class="card-title">Habitacion seleccionada</h2>
+                <hr class="linea-negra2">
+                <h3 class="card-text2">Habitación Premium</h3>
+                <h4 class="card-text2">Personas 1 cama 52 mts2</h4>
+                <hr class="linea-negra3">
+                <p class="card-text">Esta espaciosa habitación con amplios ventanales ofrece unas vistas espectaculares y
+                  una decoración elegante y actual. Las habitaciones tienen vistas a la ciudad o a los ...</p>
+              </div>
+            </div>
+          </div>
+          <div class="position-absolute bottom-0 end-0 p-4">
+            <span style="font-size: 24px; color: black; margin-right: 20px;">$59.99/noche</span>
+            <button class="btn btn-primary editar-reserva btn-lg" style="background-color: #958944;">Editar
+              reserva</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </body>
