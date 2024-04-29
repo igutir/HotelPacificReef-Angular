@@ -1,0 +1,33 @@
+.container-buscar-reservas{
+    background-color: #FFFDF5;
+    padding: 10px;
+}
+
+.card-color{
+    background-color: rgba(240, 237, 220, 0.7);
+    border-color: transparent;
+}
+.btn{
+    background-color: #958944;
+    border-color: #8D8035;
+    background: #958944;
+    border: 1px solid #8D8035;
+    border-radius: 20px;
+    width: 120px;
+
+}
+.card{
+    border-color: transparent;
+}
+.card-price{
+    font-family: 'Italiana'; 
+    font-size: 30px; 
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+}
+.boton{
+    display: flex;
+    justify-content: flex-end
+}
+

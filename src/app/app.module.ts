@@ -12,14 +12,15 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AdminReservasComponent } from './components/admin-reservas/admin-reservas.component';
 import { HomeComponent } from './components/home/home.component';
-import { AdminEmpleadosComponent } from './components/admin-empleados/admin-empleados.component'
+import { AdminEmpleadosComponent } from './components/admin-empleados/admin-empleados.component';
+import { BuscarReservaComponent } from './components/buscar-reserva/buscar-reserva.component'
 
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
   { path: 'admin_reservas', component: AdminReservasComponent },
   { path: 'admin_empleados', component: AdminEmpleadosComponent },
-  
+  { path: 'buscar_reserva', component: BuscarReservaComponent },  
 ];
 
 
@@ -30,7 +31,8 @@ const routes: Routes = [
     FooterComponent,
     AdminReservasComponent,
     HomeComponent,
-    AdminEmpleadosComponent
+    AdminEmpleadosComponent,
+    BuscarReservaComponent
   ],
   imports: [
     BrowserModule,
